@@ -14,6 +14,7 @@ A coordinated SSH Brute Force attack was detected against `linux-app-01`. After 
 ### KQL Query Used:
 ```kql
 event.category: "authentication" and event.outcome: "failure" and event.action: "ssh_login"
+```
 3. Analysis
 The activity is highly suspicious due to:
 
